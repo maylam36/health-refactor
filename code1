@@ -1,0 +1,6 @@
+{
+    "org":{{org_id}},
+    "integration_type":"{{integration_type}}",
+    "name":"{{accountName}} - Installed - disabled",
+    "description":"{{integration_type}} - Installed + disabled"
+    }
