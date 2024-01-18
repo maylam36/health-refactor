@@ -1,0 +1,85 @@
+
+    "total_count": 1,
+    "incomplete_results": false,
+    "items": [
+        {
+            "url": "https://api.github.com/repos/freeCodeCamp/freeCodeCamp/issues/51111",
+            "repository_url": "https://api.github.com/repos/freeCodeCamp/freeCodeCamp",
+            "labels_url": "https://api.github.com/repos/freeCodeCamp/freeCodeCamp/issues/51111/labels{/name}",
+            "comments_url": "https://api.github.com/repos/freeCodeCamp/freeCodeCamp/issues/51111/comments",
+            "events_url": "https://api.github.com/repos/freeCodeCamp/freeCodeCamp/issues/51111/events",
+            "html_url": "https://github.com/freeCodeCamp/freeCodeCamp/pull/51111",
+            "id": 1828861481,
+            "node_id": "PR_kwDOAbI7X85WyCC7",
+            "number": 51111,
+            "title": "refactor(api): simplify user tests",
+            "user": {
+                "login": "ojeytonwilliams",
+                "id": 15801806,
+                "node_id": "MDQ6VXNlcjE1ODAxODA2",
+                "avatar_url": "https://avatars.githubusercontent.com/u/15801806?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/ojeytonwilliams",
+                "html_url": "https://github.com/ojeytonwilliams",
+                "followers_url": "https://api.github.com/users/ojeytonwilliams/followers",
+                "following_url": "https://api.github.com/users/ojeytonwilliams/following{/other_user}",
+                "gists_url": "https://api.github.com/users/ojeytonwilliams/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/ojeytonwilliams/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/ojeytonwilliams/subscriptions",
+                "organizations_url": "https://api.github.com/users/ojeytonwilliams/orgs",
+                "repos_url": "https://api.github.com/users/ojeytonwilliams/repos",
+                "events_url": "https://api.github.com/users/ojeytonwilliams/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/ojeytonwilliams/received_events",
+                "type": "User",
+                "site_admin": false
+            },
+            "labels": [
+                {
+                    "id": 802122200,
+                    "node_id": "MDU6TGFiZWw4MDIxMjIyMDA=",
+                    "url": "https://api.github.com/repos/freeCodeCamp/freeCodeCamp/labels/platform:%20api",
+                    "name": "platform: api",
+                    "color": "59d683",
+                    "default": false,
+                    "description": "Server application that needs familiarity with Express, Loopback, MongoDB etc."
+                }
+            ],
+            "state": "closed",
+            "locked": false,
+            "assignee": null,
+            "assignees": [],
+            "milestone": null,
+            "comments": 1,
+            "created_at": "2023-07-31T10:13:20Z",
+            "updated_at": "2023-07-31T14:09:53Z",
+            "closed_at": "2023-07-31T14:08:06Z",
+            "author_association": "CONTRIBUTOR",
+            "active_lock_reason": null,
+            "draft": false,
+            "pull_request": {
+                "url": "https://api.github.com/repos/freeCodeCamp/freeCodeCamp/pulls/51111",
+                "html_url": "https://github.com/freeCodeCamp/freeCodeCamp/pull/51111",
+                "diff_url": "https://github.com/freeCodeCamp/freeCodeCamp/pull/51111.diff",
+                "patch_url": "https://github.com/freeCodeCamp/freeCodeCamp/pull/51111.patch",
+                "merged_at": "2023-07-31T14:08:06Z"
+            },
+            "body": "Checklist:\r\n\r\n<!-- Please follow this checklist and put an x in each of the boxes, like this: [x]. It will ensure that our team takes your pull request seriously. -->\r\n\r\n- [x] I have read and followed the [contribution guidelines](https://contribute.freecodecamp.org).\r\n- [x] I have read and followed the [how to open a pull request guide](https://contribute.freecodecamp.org/#/how-to-open-a-pull-request).\r\n- [x] My pull request targets the `main` branch of freeCodeCamp.\r\n- [x] I have tested these changes either locally on my machine, or GitPod.\r\n\r\n<!--If your pull request closes a GitHub issue, replace the XXXXX below with the issue number.-->\r\n\r\nHopefully this will eliminate failures like https://github.com/freeCodeCamp/freeCodeCamp/actions/runs/5712204307/job/15475399296. My working hypothesis is that the `userId` used to delete the `UserTokens` is not always the same as the one used to create them and so the cleanup is not working correctly. I've yet to recreate the bug, though, so this is just my best guess.\r\n\r\n<!-- Feel free to add any additional description of changes below this line -->\r\n",
+            "reactions": {
+                "url": "https://api.github.com/repos/freeCodeCamp/freeCodeCamp/issues/51111/reactions",
+                "total_count": 0,
+                "+1": 0,
+                "-1": 0,
+                "laugh": 0,
+                "hooray": 0,
+                "confused": 0,
+                "heart": 0,
+                "rocket": 0,
+                "eyes": 0
+            },
+            "timeline_url": "https://api.github.com/repos/freeCodeCamp/freeCodeCamp/issues/51111/timeline",
+            "performed_via_github_app": null,
+            "state_reason": null,
+            "score": 1.0
+        }
+    ]
+}
